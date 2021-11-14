@@ -54,24 +54,9 @@
     width: 50%;
     outline: none;
 }
-@media all and (max-width:1000px){
+@media all and (max-width:400px){
     .centered-content{
-        font-size: 0.7rem;
-    }
-}
-
-@media all and(max-width:600px){
-    .centered-content{
-        font-size: 0.5rem;
         width: 100%;
-    }
-}
-
-
-@media all and(max-width:400px){
-    .centered-content{
-        font-size: 10px;
-        text-align: center;
-        width: 90%;
+        font-size: 0.7rem;
     }
 }
