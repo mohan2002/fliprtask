@@ -1,0 +1,43 @@
+.userform-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(223, 223, 223, 0.842);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontainer{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.groups{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 6px;
+}
+
+.groups-check{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    width: 80%;
+    gap: 10px;
+
+}
+.groups input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 11px;
+    outline: none;
+}
+
+.groups label{
+    font-size: 0.8rem;
+}

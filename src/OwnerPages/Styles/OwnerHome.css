@@ -1,0 +1,119 @@
+.owner-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.ownerbanner{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../Images/ownerbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    padding: 19px;
+    width: 80%;
+    border:none;
+    background-color: rgb(39, 129, 231);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.next-content{
+    width: 100%;
+    height: 80vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-content-title{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(39, 129, 231);
+}
+
+.third-content{
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+}
+
+.next-content-work{
+    width: 80%;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(39, 129, 231);
+}
+
+.third-content div{
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(39, 129, 231);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fourth-con{
+    width:100%;
+    height: 100vh;
+    background-image: url("../../Images/lovefood.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media all  and (max-width: 768px){
+    .ownerbanner{
+        height: 90vh;
+    }
+    .centered{
+        width: 80%;
+        text-align: center;
+    }
+    .next-content{
+        width: 100%;
+        height: 80vh;
+    }
+    .next-content-title{
+        font-size: 20px;
+    }
+    .next-content-work{
+        font-size: 30px;
+    }
+    .third-content{
+        width: 100%;
+        height: 80vh;
+    }
+    .third-content div{
+        width: 80%;
+    }
+    .fourth-con{
+        height: 60vh;
+    }
+}

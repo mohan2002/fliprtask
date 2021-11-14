@@ -1,0 +1,75 @@
+.addmenu-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(224, 224, 224, 0.432);
+}
+.add input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.sampleimg{
+    height: 200px;
+    width: 200px;
+}
+
+.parent-div {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .parent-div input[type=file] {
+    left: 0;
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    font-size: 90px;
+  }
+  .btn-upload {
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    
+  }
+
+  .btn{
+      background-color: rgb(13, 158, 241);
+  }
+
+.btnfw{
+    background-color: rgba(128, 128, 128, 0.26);
+    padding: 20px;
+    border:none;
+    margin-top: 20px;
+}
+
+
+@media all and (max-width: 600px) {
+    .add{
+        width: 80%;
+    }
+}

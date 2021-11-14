@@ -1,0 +1,82 @@
+.addrestaurant-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(199, 199, 199, 0.199);
+}
+
+.groups{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.txtbox{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+select{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.sbt-btn{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+@media all and (max-width: 600px){
+    .addrestaurant-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        background-color: rgba(199, 199, 199, 0.199);
+    }
+    .groups{
+        width: 90%;
+    }
+
+}
